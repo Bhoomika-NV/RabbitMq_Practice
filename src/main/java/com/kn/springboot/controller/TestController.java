@@ -22,7 +22,7 @@ import Entity.Person.Person;
 @RestController
 @RequestMapping("/api/v1")
 public class TestController {
-
+///autowiring the RabbiteTemplate ..
 	@Autowired
 	RabbitTemplate rabbitTemplate;
 
