@@ -22,7 +22,8 @@ import Entity.Person.Person;
 @RestController
 @RequestMapping("/api/v1")
 public class TestController {
-
+///autowiring the RabbiteTemplate ..
+	//Bhoomika-NV <bhoomikanv6@gmail.com>
 	@Autowired
 	RabbitTemplate rabbitTemplate;
 
